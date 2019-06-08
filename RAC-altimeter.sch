@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.1">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -341,6 +341,64 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <vertex x="1.8364" y="-0.0051" curve="-90.012967"/>
 </polygon>
 </package>
+<package name="0402-TIGHT">
+<smd name="1" x="-0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
+<smd name="2" x="0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
+<text x="0" y="0.562" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.562" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.002540625" layer="51"/>
+<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.002540625" layer="51"/>
+<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.002540625" layer="51"/>
+<wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.002540625" layer="51"/>
+<rectangle x1="-0.5" y1="-0.25" x2="-0.3" y2="0.25" layer="51"/>
+<rectangle x1="0.3" y1="-0.25" x2="0.5" y2="0.25" layer="51" rot="R180"/>
+<wire x1="0.9262" y1="0.4262" x2="-0.9262" y2="0.4262" width="0.05" layer="39"/>
+<wire x1="-0.9262" y1="0.4262" x2="-0.9262" y2="-0.4262" width="0.05" layer="39"/>
+<wire x1="-0.9262" y1="-0.4262" x2="0.9262" y2="-0.4262" width="0.05" layer="39"/>
+<wire x1="0.9262" y1="-0.4262" x2="0.9262" y2="0.4262" width="0.05" layer="39"/>
+</package>
+<package name="0805">
+<description>&lt;p&gt;&lt;b&gt;Generic 2012 (0805) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<smd name="1" x="-0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
+<smd name="2" x="0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
+<text x="0" y="0.889" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.889" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="-1.5" y1="0.8" x2="1.5" y2="0.8" width="0.0508" layer="39"/>
+<wire x1="1.5" y1="0.8" x2="1.5" y2="-0.8" width="0.0508" layer="39"/>
+<wire x1="1.5" y1="-0.8" x2="-1.5" y2="-0.8" width="0.0508" layer="39"/>
+<wire x1="-1.5" y1="-0.8" x2="-1.5" y2="0.8" width="0.0508" layer="39"/>
+</package>
+<package name="1206">
+<description>&lt;p&gt;&lt;b&gt;Generic 3216 (1206) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<wire x1="-2.4" y1="1.1" x2="2.4" y2="1.1" width="0.0508" layer="39"/>
+<wire x1="2.4" y1="-1.1" x2="-2.4" y2="-1.1" width="0.0508" layer="39"/>
+<wire x1="-2.4" y1="-1.1" x2="-2.4" y2="1.1" width="0.0508" layer="39"/>
+<wire x1="2.4" y1="1.1" x2="2.4" y2="-1.1" width="0.0508" layer="39"/>
+<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
+<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
+<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+</package>
+<package name="CAP-PTH-10MM">
+<description>2 PTH spaced 10mm apart</description>
+<wire x1="-0.5" y1="0.635" x2="-0.5" y2="0" width="0.2032" layer="21"/>
+<pad name="1" x="-5" y="0" drill="0.9" diameter="1.651"/>
+<pad name="2" x="5" y="0" drill="0.9" diameter="1.651"/>
+<text x="0" y="1" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
+<text x="0" y="-1" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
+<wire x1="-0.5" y1="0" x2="-0.5" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="0.5" y1="0.635" x2="0.5" y2="0" width="0.2032" layer="21"/>
+<wire x1="0.5" y1="0" x2="0.5" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-0.5" y1="0" x2="-3.5" y2="0" width="0.2032" layer="21"/>
+<wire x1="0.5" y1="0" x2="3.5" y2="0" width="0.2032" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CAP">
@@ -419,6 +477,146 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <technology name="">
 <attribute name="PROD_ID" value="CAP-08390"/>
 <attribute name="VALUE" value="0.1uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402T-16V-10%" package="0402-TIGHT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-12416" constant="no"/>
+<attribute name="VALUE" value="0.1uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1.0UF" prefix="C">
+<description>&lt;h3&gt;1µF ceramic capacitors&lt;/h3&gt;
+&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0603-16V-10%" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-00868"/>
+<attribute name="VALUE" value="1.0uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402-16V-10%" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-12417"/>
+<attribute name="VALUE" value="1.0uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-0805-25V-(+80/-20%)" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-11625"/>
+<attribute name="VALUE" value="1.0uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-1206-50V-10%" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-09822"/>
+<attribute name="VALUE" value="1.0uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-0805-25V-10%" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-08064"/>
+<attribute name="VALUE" value="1.0uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-0603-16V-10%-X7R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-13930"/>
+<attribute name="VALUE" value="1.0uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402T-16V-10%" package="0402-TIGHT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-12417" constant="no"/>
+<attribute name="VALUE" value="1.0uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="10NF" prefix="C">
+<description>&lt;h3&gt;0.01uF/10nF/10,000pF ceramic capacitors&lt;/h3&gt;
+&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;
+
+CAP-09321</description>
+<gates>
+<gate name="G$1" symbol="CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-PTH-10MM-10000V-1-%" package="CAP-PTH-10MM">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-09321"/>
+<attribute name="VALUE" value="10nF"/>
+</technology>
+</technologies>
+</device>
+<device name="-0603-50V-10%" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-00867"/>
+<attribute name="VALUE" value="10nF"/>
 </technology>
 </technologies>
 </device>
@@ -1498,6 +1696,83 @@ Source: &lt;a href="https://www.mouser.de/datasheet/2/783/BST-BMI088-DS001-13-14
 </deviceset>
 </devicesets>
 </library>
+<library name="RAC-Altimeter">
+<packages>
+<package name="SOT127P706X180-6N">
+<description>&lt;b&gt;DCQ (R-PDSO-G6)&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-3" y="2.54" dx="2" dy="0.65" layer="1"/>
+<smd name="2" x="-3" y="1.27" dx="2" dy="0.65" layer="1"/>
+<smd name="3" x="-3" y="0" dx="2" dy="0.65" layer="1"/>
+<smd name="4" x="-3" y="-1.27" dx="2" dy="0.65" layer="1"/>
+<smd name="5" x="-3" y="-2.54" dx="2" dy="0.65" layer="1"/>
+<smd name="6" x="3" y="0" dx="3.2" dy="2" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-4.25" y1="3.525" x2="4.25" y2="3.525" width="0.05" layer="51"/>
+<wire x1="4.25" y1="3.525" x2="4.25" y2="-3.525" width="0.05" layer="51"/>
+<wire x1="4.25" y1="-3.525" x2="-4.25" y2="-3.525" width="0.05" layer="51"/>
+<wire x1="-4.25" y1="-3.525" x2="-4.25" y2="3.525" width="0.05" layer="51"/>
+<wire x1="-1.75" y1="3.25" x2="1.75" y2="3.25" width="0.1" layer="51"/>
+<wire x1="1.75" y1="3.25" x2="1.75" y2="-3.25" width="0.1" layer="51"/>
+<wire x1="1.75" y1="-3.25" x2="-1.75" y2="-3.25" width="0.1" layer="51"/>
+<wire x1="-1.75" y1="-3.25" x2="-1.75" y2="3.25" width="0.1" layer="51"/>
+<wire x1="-1.75" y1="1.98" x2="-0.48" y2="3.25" width="0.1" layer="51"/>
+<wire x1="-1.65" y1="3.25" x2="1.65" y2="3.25" width="0.2" layer="21"/>
+<wire x1="1.65" y1="3.25" x2="1.65" y2="-3.25" width="0.2" layer="21"/>
+<wire x1="1.65" y1="-3.25" x2="-1.65" y2="-3.25" width="0.2" layer="21"/>
+<wire x1="-1.65" y1="-3.25" x2="-1.65" y2="3.25" width="0.2" layer="21"/>
+<wire x1="-4" y1="3.215" x2="-2" y2="3.215" width="0.2" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="TPS73733DCQR">
+<wire x1="5.08" y1="2.54" x2="25.4" y2="2.54" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-7.62" x2="25.4" y2="2.54" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<text x="26.67" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="26.67" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="IN" x="0" y="0" length="middle"/>
+<pin name="OUT" x="0" y="-2.54" length="middle"/>
+<pin name="GND_1" x="0" y="-5.08" length="middle"/>
+<pin name="NR/FB" x="30.48" y="0" length="middle" rot="R180"/>
+<pin name="EN" x="30.48" y="-2.54" length="middle" rot="R180"/>
+<pin name="GND_2" x="30.48" y="-5.08" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TPS73733DCQR" prefix="IC">
+<description>&lt;b&gt;Single Output LDO, 1A, Adj. (1.2 to 5.0V), Reverse Current Protection&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.ti.com/lit/gpn/tps737"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="TPS73733DCQR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT127P706X180-6N">
+<connects>
+<connect gate="G$1" pin="EN" pad="5"/>
+<connect gate="G$1" pin="GND_1" pad="3"/>
+<connect gate="G$1" pin="GND_2" pad="6"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="NR/FB" pad="4"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Single Output LDO, 1A, Adj. (1.2 to 5.0V), Reverse Current Protection" constant="no"/>
+<attribute name="HEIGHT" value="1.8mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TPS73733DCQR" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-TPS73733DCQR" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=595-TPS73733DCQR" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1521,9 +1796,9 @@ Source: &lt;a href="https://www.mouser.de/datasheet/2/783/BST-BMI088-DS001-13-14
 <part name="IC3" library="STM32L412KBU6" deviceset="STM32L412KBU6" device=""/>
 <part name="C6" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
 <part name="GND7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="C7" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
+<part name="C5" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
 <part name="GND8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="C8" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
+<part name="C7" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
 <part name="GND9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND10" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND11" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
@@ -1541,6 +1816,15 @@ Source: &lt;a href="https://www.mouser.de/datasheet/2/783/BST-BMI088-DS001-13-14
 <part name="C3" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
 <part name="C4" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
 <part name="GND5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="IC4" library="RAC-Altimeter" deviceset="TPS73733DCQR" device=""/>
+<part name="C8" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" value="1.0uF"/>
+<part name="C9" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" value="1.0uF"/>
+<part name="GND6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="GND12" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="GND13" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="GND14" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="C10" library="SparkFun-Capacitors" deviceset="10NF" device="-0603-50V-10%" value="10nF"/>
+<part name="GND15" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1593,14 +1877,14 @@ Source: &lt;a href="https://www.mouser.de/datasheet/2/783/BST-BMI088-DS001-13-14
 <instance part="GND7" gate="1" x="-27.94" y="20.32" smashed="yes">
 <attribute name="VALUE" x="-27.94" y="20.066" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="C7" gate="G$1" x="66.04" y="20.32" smashed="yes" rot="MR0">
+<instance part="C5" gate="G$1" x="66.04" y="20.32" smashed="yes" rot="MR0">
 <attribute name="NAME" x="64.516" y="23.241" size="1.778" layer="95" font="vector" rot="MR0"/>
 <attribute name="VALUE" x="64.516" y="18.161" size="1.778" layer="96" font="vector" rot="MR0"/>
 </instance>
 <instance part="GND8" gate="1" x="66.04" y="12.7" smashed="yes">
 <attribute name="VALUE" x="66.04" y="12.446" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="C8" gate="G$1" x="-38.1" y="27.94" smashed="yes" rot="MR0">
+<instance part="C7" gate="G$1" x="-38.1" y="27.94" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-39.624" y="30.861" size="1.778" layer="95" font="vector" rot="MR0"/>
 <attribute name="VALUE" x="-39.624" y="25.781" size="1.778" layer="96" font="vector" rot="MR0"/>
 </instance>
@@ -1661,6 +1945,37 @@ Source: &lt;a href="https://www.mouser.de/datasheet/2/783/BST-BMI088-DS001-13-14
 </instance>
 <instance part="GND5" gate="1" x="180.34" y="99.06" smashed="yes">
 <attribute name="VALUE" x="180.34" y="98.806" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="IC4" gate="G$1" x="10.16" y="124.46" smashed="yes">
+<attribute name="NAME" x="16.51" y="132.08" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="16.51" y="129.54" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="C8" gate="G$1" x="-12.7" y="114.3" smashed="yes" rot="MR0">
+<attribute name="NAME" x="-14.224" y="117.221" size="1.778" layer="95" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="-14.224" y="112.141" size="1.778" layer="96" font="vector" rot="MR0"/>
+</instance>
+<instance part="C9" gate="G$1" x="-2.54" y="114.3" smashed="yes">
+<attribute name="NAME" x="-1.016" y="117.221" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="-1.016" y="112.141" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="GND6" gate="1" x="-2.54" y="106.68" smashed="yes">
+<attribute name="VALUE" x="-2.54" y="106.426" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="GND12" gate="1" x="-12.7" y="106.68" smashed="yes">
+<attribute name="VALUE" x="-12.7" y="106.426" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="GND13" gate="1" x="43.18" y="106.68" smashed="yes">
+<attribute name="VALUE" x="43.18" y="106.426" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="GND14" gate="1" x="7.62" y="106.68" smashed="yes">
+<attribute name="VALUE" x="7.62" y="106.426" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="C10" gate="G$1" x="60.96" y="114.3" smashed="yes">
+<attribute name="NAME" x="62.484" y="117.221" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="62.484" y="112.141" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="GND15" gate="1" x="60.96" y="106.68" smashed="yes">
+<attribute name="VALUE" x="60.96" y="106.426" size="1.778" layer="96" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -1762,12 +2077,12 @@ Source: &lt;a href="https://www.mouser.de/datasheet/2/783/BST-BMI088-DS001-13-14
 <wire x1="-27.94" y1="22.86" x2="-27.94" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C7" gate="G$1" pin="2"/>
+<pinref part="C5" gate="G$1" pin="2"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 <wire x1="66.04" y1="17.78" x2="66.04" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C8" gate="G$1" pin="2"/>
+<pinref part="C7" gate="G$1" pin="2"/>
 <pinref part="GND9" gate="1" pin="GND"/>
 <wire x1="-38.1" y1="22.86" x2="-38.1" y2="25.4" width="0.1524" layer="91"/>
 </segment>
@@ -1814,6 +2129,33 @@ Source: &lt;a href="https://www.mouser.de/datasheet/2/783/BST-BMI088-DS001-13-14
 <wire x1="172.72" y1="106.68" x2="180.34" y2="106.68" width="0.1524" layer="91"/>
 <junction x="172.72" y="106.68"/>
 <junction x="180.34" y="106.68"/>
+</segment>
+<segment>
+<pinref part="C8" gate="G$1" pin="2"/>
+<pinref part="GND12" gate="1" pin="GND"/>
+<wire x1="-12.7" y1="111.76" x2="-12.7" y2="109.22" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C9" gate="G$1" pin="2"/>
+<pinref part="GND6" gate="1" pin="GND"/>
+<wire x1="-2.54" y1="111.76" x2="-2.54" y2="109.22" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC4" gate="G$1" pin="GND_2"/>
+<wire x1="40.64" y1="119.38" x2="43.18" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="GND13" gate="1" pin="GND"/>
+<wire x1="43.18" y1="119.38" x2="43.18" y2="109.22" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC4" gate="G$1" pin="GND_1"/>
+<wire x1="10.16" y1="119.38" x2="7.62" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="GND14" gate="1" pin="GND"/>
+<wire x1="7.62" y1="119.38" x2="7.62" y2="109.22" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C10" gate="G$1" pin="2"/>
+<pinref part="GND15" gate="1" pin="GND"/>
+<wire x1="60.96" y1="111.76" x2="60.96" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="I2C1_SCL" class="0">
@@ -1874,7 +2216,7 @@ Source: &lt;a href="https://www.mouser.de/datasheet/2/783/BST-BMI088-DS001-13-14
 <segment>
 <pinref part="IC3" gate="G$1" pin="VDD_1"/>
 <wire x1="5.08" y1="58.42" x2="-17.78" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="C8" gate="G$1" pin="1"/>
+<pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="-17.78" y1="58.42" x2="-38.1" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="-38.1" y1="58.42" x2="-38.1" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="-38.1" y1="58.42" x2="-38.1" y2="63.5" width="0.1524" layer="91"/>
@@ -1886,7 +2228,7 @@ Source: &lt;a href="https://www.mouser.de/datasheet/2/783/BST-BMI088-DS001-13-14
 <junction x="-17.78" y="58.42"/>
 </segment>
 <segment>
-<pinref part="C7" gate="G$1" pin="1"/>
+<pinref part="C5" gate="G$1" pin="1"/>
 <pinref part="SUPPLY5" gate="G$1" pin="VCC"/>
 <wire x1="66.04" y1="25.4" x2="66.04" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="G$1" pin="VDD_2"/>
@@ -1968,6 +2310,44 @@ Source: &lt;a href="https://www.mouser.de/datasheet/2/783/BST-BMI088-DS001-13-14
 <pinref part="FB1" gate="G$1" pin="2"/>
 <pinref part="IC3" gate="G$1" pin="VDDA/VREF+"/>
 <wire x1="-0.762" y1="48.26" x2="5.08" y2="48.26" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="IC4" gate="G$1" pin="IN"/>
+<pinref part="C8" gate="G$1" pin="1"/>
+<wire x1="10.16" y1="124.46" x2="-12.7" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="124.46" x2="-12.7" y2="119.38" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="C9" gate="G$1" pin="1"/>
+<wire x1="-2.54" y1="119.38" x2="-2.54" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="IC4" gate="G$1" pin="OUT"/>
+<wire x1="-2.54" y1="121.92" x2="10.16" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LDO_EN" class="0">
+<segment>
+<pinref part="IC4" gate="G$1" pin="EN"/>
+<wire x1="40.64" y1="121.92" x2="45.72" y2="121.92" width="0.1524" layer="91"/>
+<label x="45.72" y="121.92" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="PA2"/>
+<wire x1="5.08" y1="40.64" x2="0" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="0" y1="40.64" x2="0" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="0" y1="35.56" x2="-5.08" y2="35.56" width="0.1524" layer="91"/>
+<label x="-5.08" y="35.56" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="IC4" gate="G$1" pin="NR/FB"/>
+<wire x1="40.64" y1="124.46" x2="60.96" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="C10" gate="G$1" pin="1"/>
+<wire x1="60.96" y1="124.46" x2="60.96" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
