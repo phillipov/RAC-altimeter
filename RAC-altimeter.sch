@@ -4544,46 +4544,46 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="I2C0_SCL" class="0">
 <segment>
-<pinref part="U3" gate="G$1" pin="SCK"/>
-<wire x1="137.16" y1="91.44" x2="132.08" y2="91.44" width="0.1524" layer="91"/>
-<label x="132.08" y="91.44" size="1.778" layer="95" rot="MR0"/>
-</segment>
-<segment>
-<pinref part="U2" gate="G$1" pin="SCL/SCK"/>
-<wire x1="132.08" y1="119.38" x2="111.76" y2="119.38" width="0.1524" layer="91"/>
-<label x="111.76" y="119.38" size="1.778" layer="95" rot="MR0"/>
-</segment>
-<segment>
 <pinref part="U1" gate="A" pin="P0.8"/>
-<wire x1="55.88" y1="38.1" x2="96.52" y2="38.1" width="0.1524" layer="91"/>
-<label x="96.52" y="38.1" size="1.778" layer="95"/>
+<wire x1="55.88" y1="38.1" x2="63.5" y2="38.1" width="0.1524" layer="91"/>
+<label x="63.5" y="38.1" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="43.18" x2="137.16" y2="43.18" width="0.1524" layer="91"/>
 <label x="137.16" y="43.18" size="1.778" layer="95" rot="MR0"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="4"/>
+<wire x1="-78.74" y1="132.08" x2="-71.12" y2="132.08" width="0.1524" layer="91"/>
+<label x="-71.12" y="132.08" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="4"/>
+<wire x1="-78.74" y1="96.52" x2="-71.12" y2="96.52" width="0.1524" layer="91"/>
+<label x="-71.12" y="96.52" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="I2C0_SDA" class="0">
 <segment>
-<pinref part="U3" gate="G$1" pin="SDI"/>
-<wire x1="137.16" y1="86.36" x2="132.08" y2="86.36" width="0.1524" layer="91"/>
-<label x="132.08" y="86.36" size="1.778" layer="95" rot="MR0"/>
-</segment>
-<segment>
-<pinref part="U2" gate="G$1" pin="SDA/SDI"/>
-<wire x1="167.64" y1="137.16" x2="172.72" y2="137.16" width="0.1524" layer="91"/>
-<label x="172.72" y="137.16" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U1" gate="A" pin="P0.9"/>
-<wire x1="55.88" y1="35.56" x2="96.52" y2="35.56" width="0.1524" layer="91"/>
-<label x="96.52" y="35.56" size="1.778" layer="95"/>
+<wire x1="55.88" y1="35.56" x2="63.5" y2="35.56" width="0.1524" layer="91"/>
+<label x="63.5" y="35.56" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="35.56" x2="137.16" y2="35.56" width="0.1524" layer="91"/>
 <label x="137.16" y="35.56" size="1.778" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="3"/>
+<wire x1="-78.74" y1="129.54" x2="-71.12" y2="129.54" width="0.1524" layer="91"/>
+<label x="-71.12" y="129.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="3"/>
+<wire x1="-78.74" y1="93.98" x2="-71.12" y2="93.98" width="0.1524" layer="91"/>
+<label x="-71.12" y="93.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -4823,14 +4823,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="180.34" y="43.18" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="4"/>
-<wire x1="-78.74" y1="96.52" x2="-71.12" y2="96.52" width="0.1524" layer="91"/>
-<label x="-71.12" y="96.52" size="1.778" layer="95"/>
+<pinref part="U3" gate="G$1" pin="SCK"/>
+<wire x1="137.16" y1="91.44" x2="132.08" y2="91.44" width="0.1524" layer="91"/>
+<label x="132.08" y="91.44" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="4"/>
-<wire x1="-78.74" y1="132.08" x2="-71.12" y2="132.08" width="0.1524" layer="91"/>
-<label x="-71.12" y="132.08" size="1.778" layer="95"/>
+<pinref part="U2" gate="G$1" pin="SCL/SCK"/>
+<wire x1="132.08" y1="119.38" x2="111.76" y2="119.38" width="0.1524" layer="91"/>
+<label x="111.76" y="119.38" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="I2C1_SDA" class="0">
@@ -4845,14 +4845,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="180.34" y="35.56" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="3"/>
-<wire x1="-78.74" y1="93.98" x2="-71.12" y2="93.98" width="0.1524" layer="91"/>
-<label x="-71.12" y="93.98" size="1.778" layer="95"/>
+<pinref part="U3" gate="G$1" pin="SDI"/>
+<wire x1="137.16" y1="86.36" x2="132.08" y2="86.36" width="0.1524" layer="91"/>
+<label x="132.08" y="86.36" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="3"/>
-<wire x1="-78.74" y1="129.54" x2="-71.12" y2="129.54" width="0.1524" layer="91"/>
-<label x="-71.12" y="129.54" size="1.778" layer="95"/>
+<pinref part="U2" gate="G$1" pin="SDA/SDI"/>
+<wire x1="167.64" y1="137.16" x2="172.72" y2="137.16" width="0.1524" layer="91"/>
+<label x="172.72" y="137.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="UART1_TX" class="0">
